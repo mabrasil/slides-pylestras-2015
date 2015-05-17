@@ -1,17 +1,16 @@
 {
-  "name": "uma-introducao-a-git-e-github",
+  "name": "aplicacoes-hibridas-com-ionic",
   "version": "1.0.0",
-  "description": "Slides from my talk at FLISOL 2015 about the importance of versioning and sharing code on Github.",
-  "repository": "https://github.com/mabrasil/slides-flisol-2015",
+  "description": "Slides from my talk at CocoaHeads Fortaleza about building mobile hybrid apps with Ionic.",
+  "repository": "https://github.com/mabrasil/slides-cocoaheads-2015",
   "main": "index.js",
   "scripts": {
     "test": ""
   },
   "keywords": [
     "reveal",
-	"git",
-    "github",
-	"flisol"
+    "ionic",
+    "cocoaheads"
   ],
   "author": "Matheus Albuquerque Brasil",
   "license": "MIT",
