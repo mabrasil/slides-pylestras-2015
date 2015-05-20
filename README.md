@@ -1,6 +1,6 @@
-# Construindo aplicações Híbridas com Ionic
+# Aventurando-se com metadados: Micro Data e Open Graph
 
-Slides from my talk at 3º CocoaHeads Fortaleza about building hybrid mobile apps with Ionic Framework.
+Slides from my talk at IX Pylestras about metadata, focusing in Microdata and Open Graph.
 
 ## Tools
 
@@ -15,8 +15,8 @@ First of all, make sure you have [NodeJS](http://nodejs.org/) and [GulpJS](http:
 Clone this repository:
 
 ```sh
-$ git clone git://github.com/mabrasil/slides-cocoaheads-2015
-$ cd slides-cocoaheads-2015
+$ git clone git://github.com/mabrasil/slides-pylestras-2015
+$ cd slides-pylestras-2015
 ```
 
 Install NodeJS dependencies:
