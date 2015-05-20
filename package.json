@@ -1,16 +1,16 @@
 {
-  "name": "aplicacoes-hibridas-com-ionic",
+  "name": "aventurando-se-com-metadados",
   "version": "1.0.0",
-  "description": "Slides from my talk at CocoaHeads Fortaleza about building mobile hybrid apps with Ionic.",
-  "repository": "https://github.com/mabrasil/slides-cocoaheads-2015",
+  "description": "Slides from my talk at Pylestras about metadata, focusing on Microdata and Open Graph.",
+  "repository": "https://github.com/mabrasil/slides-pylestras-2015",
   "main": "index.js",
   "scripts": {
     "test": ""
   },
   "keywords": [
     "reveal",
-    "ionic",
-    "cocoaheads"
+    "microdata",
+    "pylestras"
   ],
   "author": "Matheus Albuquerque Brasil",
   "license": "MIT",
