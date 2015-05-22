@@ -1,0 +1,109 @@
+section
+
+  section.sec-slide(data-background="#8e44ad")
+
+    h1.white Microdata
+
+  section.sec-slide
+
+    ul
+      li.fragment Grupo de pares <i>nome-valor</i>.
+      li.fragment Os grupos são chamados de itens, e cada par nome-valor é uma propriedade.
+      li.fragment Itens e propriedades são representados por elementos regulares.
+
+  section.sec-slide
+
+    h4 Dados sobre pessoas...
+
+    pre
+      code.
+        <article itemscope itemtype="http://schema.org/Person">
+          Eu sou
+          <span itemprop="name">
+              <strong itemprop="givenName">Matheus</strong>
+              <strong itemprop="additionalName">Albuquerque</strong>
+              <strong itemprop="familyName">Brasil</strong>
+          </span>,
+          trabalho como
+          <strong itemprop="jobTitle">Desenvolvedor Front End</strong>
+          atualmente em atividade em
+          <span itemscope
+              itemprop="address homeLocation workLocation"
+              itemtype="http://schema.org/PostalAddress"
+          >
+              <strong itemprop="name addressLocality">Fortaleza</strong>
+          </span>
+        </article>
+
+  section.sec-slide
+
+    h4 Dados sobre produtos...
+
+    pre
+      code.
+        <a href="/b/meu-exemplo-de-livro"
+            itemscope itemtype="http://schema.org/Book">
+            <link itemprop="additionalType" href="http://schema.org/SomeProducts">
+            <span itemprop="name">Meu Exemplo de Livro</span>
+            <span itemprop="author">Meu exemplo de Autor</span>
+            <b itemprop="inventoryLevel">X</b> exemplares em Y vendedores
+            A partir de <strong>R$ Z</strong>
+            <span
+                itemprop="offers"
+                itemscope itemtype="http://schema.org/Offer"
+            ><span
+                itemprop="priceSpecification"
+                itemscope itemtype="http://schema.org/PriceSpecification">
+                <meta itemprop="priceCurrency" content="BRL">
+                <meta itemprop="minPrice" content="Valor Z">
+            </span></span>
+        </a>
+
+  section.sec-slide
+
+    h4 Dados sobre formas de pagamento...
+
+    pre
+      code.
+        <link itemprop="acceptedPaymentMethod"
+            href="http://purl.org/goodrelations/v1#MasterCard">
+        <link itemprop="acceptedPaymentMethod"
+            href="http://purl.org/goodrelations/v1#VISA">
+        <link itemprop="acceptedPaymentMethod"
+            href="http://purl.org/goodrelations/v1#AmericanExpress">
+        <link itemprop="acceptedPaymentMethod"
+            href="http://purl.org/goodrelations/v1#PayPal">
+        <link itemprop="acceptedPaymentMethod"
+            href="http://purl.org/goodrelations/v1#PagSeguro">
+
+  section.sec-slide
+
+    h4 Dados sobre o que o usuário pode fazer...
+
+    pre
+      code.
+        <form method="GET" action="http://www.meusite.com/busca"
+            itemprop="potentialAction"
+            itemscope itemtype="http://schema.org/SearchAction">
+                <meta itemprop="target"
+                    content="http://www.meusite.com/busca?q={query}">
+                <input type="search" name="q" required>
+                <button type="submit">buscar...</button>
+        </form>
+
+  section.sec-slide
+
+    h4 Dados para redes sociais...
+
+    pre
+      code.
+        <meta itemprop="name" content="Título da página">
+        <meta itemprop="description" content="Pequena descrição">
+        <meta itemprop="image" content="Imagem da página">
+
+    p.fragment *no Google Plus
+
+  section.sec-slide(data-background="img/gifs/jake-amazed-2.gif")
+
+    h2 Imagine as possibilidades...
+

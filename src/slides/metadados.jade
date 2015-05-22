@@ -1,0 +1,95 @@
+section
+
+  section.sec-slide
+
+    h3 meta · da · dos
+    h5.fragment.red substantivo
+    p.fragment Um conjunto de dados que descreve e dá informações sobre outros dados.
+    p.fragment ...
+    h6.fragment Dados sobre dados ;)
+
+
+  section.sec-slide(data-background="img/gifs/sad.gif")
+
+    h1 Só isso?
+
+  section.sec-slide
+
+    h2 Metadados:
+
+    ul
+      li.fragment Podem ser: Descritivos, Estruturais e Administrativos
+      li.fragment Podem se aplicar a um item, ou a uma coleção de itens
+      li.fragment Podem ser embutidos ou linkados
+      li.fragment <i>Human Readable</i> X <i>Machine Readable</i>
+
+  section.sec-slide(data-background="#8e44ad")
+
+    h3.white Mas pera...
+    h1.fragment.white <i>Como descrevo as coisas?</i>
+
+  section.sec-slide
+
+    .col-3.fragment
+      p Dicionários
+    .col-3.fragment
+      p Relações
+    .col-3.fragment
+      p <i>Padrões</i>
+
+  section.sec-slide
+
+    h2 Alguns padrões...
+
+    ul
+      li.fragment Darwin Core
+      li.fragment CDWA
+      li.fragment AAT
+      li.fragment TGM
+      li.fragment TGN
+      li.fragment ...
+
+  section.sec-slide
+
+    h2 Exemplo
+
+    .col-example
+      img(src="img/examples/painting_monalisa_original.jpg", alt="Mona Lisa Original")
+
+    .col-desktop.fragment
+      pre
+        code.
+          Title: Mona Lisa
+          Creator: Leonardo da
+          Subject: Lisa del Giocondo
+          Description: Portraits of a woman
+          Date: c. 1503-1506
+          Format: oil paint on poplar wood
+          Rights: Musée du Louvre
+
+    p.fragment * em CDWA
+
+  section.sec-slide
+
+    h2 Exemplo
+
+    .col-example
+      img(src="img/examples/painting_monalisa_digital.jpg", alt="Mona Lisa Digital")
+
+    .col-desktop.fragment
+      pre
+        code.
+          Title: Mona Lisa
+          Creator: < Quem fez essa versão digital >
+          Subject: Mona Lisa
+          Description: Image of the Mona Lisa
+          Publisher: Musée du Louvre
+          Contributor: Leonardo da Vinci
+          Date: 2013
+          Type: Image
+          Format: JPEG 2000
+          Identifier: < URL da imagem >
+          Relation: < URL da original >
+          Rights: Musée du Louvre
+
+    p.fragment * em CDWA
