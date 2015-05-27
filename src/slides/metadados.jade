@@ -37,16 +37,48 @@ section
     .col-3.fragment
       p <i>Padrões</i>
 
+  section.sec-slide(data-background="#8e44ad")
+
+    h1.white Padrões de sintaxe
+
+  section.sec-slide
+
+    p Referem-se às regras criadas para estruturar os campos/elementos de metainformação
+
   section.sec-slide
 
     h2 Alguns padrões...
 
     ul
-      li.fragment Darwin Core
-      li.fragment CDWA
-      li.fragment AAT
-      li.fragment TGM
-      li.fragment TGN
+      li.fragment HTML
+      li.fragment XML
+      li.fragment RDF
+      li.fragment JSON
+      li.fragment Schema.org
+      li.fragment ...
+
+  section.sec-slide(data-background="#8e44ad")
+
+    h1.white Padrões de conteúdo
+    h3.white.fragment <i>(Vocabulários)</i>
+
+  section.sec-slide
+
+    p Referem-se aos vocabulários utilizados para montar declarações de metadados, normalmente são estruturados de acordo com um conceito ou grupo de conceitos bem definidos
+
+    p.fragment <strong>(artes, biologia, geografia...)</strong>
+
+  section.sec-slide
+
+    h2 Alguns padrões...
+
+    ul.text-left
+      li.fragment Dublin Core - Mais flexibilidade para os autores e melhorias de SEO
+      li.fragment Darwin Core - Biologia
+      li.fragment CDWA - Trabalhos de arte
+      li.fragment AAT - Arte e Arquitetura
+      li.fragment TGM - Materiais gráficos
+      li.fragment TGN - Geografia
       li.fragment ...
 
   section.sec-slide
@@ -60,10 +92,10 @@ section
       pre
         code.
           Title: Mona Lisa
-          Creator: Leonardo da
+          Creator: Leonardo da Vinci
           Subject: Lisa del Giocondo
           Description: Portraits of a woman
-          Date: c. 1503-1506
+          Date: 1503-1506
           Format: oil paint on poplar wood
           Rights: Musée du Louvre
 
@@ -93,3 +125,18 @@ section
           Rights: Musée du Louvre
 
     p.fragment * em CDWA
+
+  section.sec-slide
+
+    h2 Exemplo
+
+    p.fragment Dublin Core + HTML
+
+    pre.fragment
+      code.
+        <title> Website com uma imagem de Mona Lisa </title>
+        <meta name="DC.title" content="Mona Lisa" />
+        <meta name="DC.creator " content="da Vinci, Leonardo" />
+        <meta name="DC.subject" content="Lisa del Giocondo" />
+        <meta name="DC.date.created" content="1503-1506" />
+        <meta name="DC.format" content="image/jpg" />
