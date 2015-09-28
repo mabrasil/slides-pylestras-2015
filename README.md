@@ -4,12 +4,12 @@
 
 ## The talk
 
-- **Title:** *De volta para o futuro: a importância de funcional nos dias atuais*
-- **When:** September, 19
+- **Title:** *Aventurando-se com metadados: Micro Data e Open Graph*
+- **When:** May, 30
 - **Where:** Universidade de Fortaleza - Unifor.
-- **Attendees:** ≈50
-- **Description:** [Ian](https://github.com/IanRamosC) and I will highlight certain parts of large project development where functional programming may be the right choice. We'll show a little on history and also why and how functional programming has been being the best alternative to scale.
-- **Presentation:** [See it live here](http://mabrasil.github.io/talks/2015/unidev/).
+- **Attendees:** ≈40
+- **Description:** An introduction to the importance of one of the key concepts behind the Semantic Web: metadata. I will cover two of the most used patterns: Microdata and the Open Graph, and how metadata can help your project to have information organized in a way that not only humans understand it, regardless of the technology used on the back end.
+- **Presentation:** [See it live here](http://mabrasil.github.io/talks/2015/pylestras/).
 
 ## The slides
 
