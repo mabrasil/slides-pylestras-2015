@@ -1,4 +1,4 @@
-# De volta para o futuro: a importância de funcional nos dias atuais
+# Aventurando-se com metadados: Micro Data e Open Graph
 
 ![Screenshot](src/images/meta/screenshot.png)
 
