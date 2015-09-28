@@ -1,55 +1,18 @@
-# Aventurando-se com metadados: Micro Data e Open Graph
+# De volta para o futuro: a importância de funcional nos dias atuais
 
-Slides from my talk at IX Pylestras about metadata, focusing in Microdata and Open Graph.
+![Screenshot](src/images/meta/screenshot.png)
 
-## Tools
+## The talk
 
-These slides are made using [Reveal.JS](http://lab.hakim.se/reveal-js/), [Gulp](http://gulpjs.com/) for
-automation, [Jade](http://jade-lang.com/) as a template engine and [Stylus](http://learnboost.github.io/stylus/)
-as a preprocessor.
+- **Title:** *De volta para o futuro: a importância de funcional nos dias atuais*
+- **When:** September, 19
+- **Where:** Universidade de Fortaleza - Unifor.
+- **Attendees:** ≈50
+- **Description:** [Ian](https://github.com/IanRamosC) and I will highlight certain parts of large project development where functional programming may be the right choice. We'll show a little on history and also why and how functional programming has been being the best alternative to scale.
+- **Presentation:** [See it live here](http://mabrasil.github.io/talks/2015/unidev/).
 
-## Installing
+## The slides
 
-First of all, make sure you have [NodeJS](http://nodejs.org/) and [GulpJS](http://gulpjs.com/)
+These slides are made using [xzibit](https://github.com/mabrasil/xzibit) v.1.0.0. To get more info on how to run and that kind of things, visit the project's page.
 
-Clone this repository:
-
-```sh
-$ git clone git://github.com/mabrasil/slides-pylestras-2015
-$ cd slides-pylestras-2015
-```
-
-Install NodeJS dependencies:
-
-```sh
-$ npm install
-```
-
-Run Tasks and Serve:
-
-```sh
-$ gulp
-```
-
-## Basics
-
-- Each new **slide** (horizontally navigated) is a new `.jade` file in which we work on - and after add in
- `src/templates/index.jade` making the includes in the order of presentation.
-
-- Each new **vertical slide** (vertically navigated, inside a **slide**) is a `section.sec-slide` within the `section`
- in the slide that you're working in.
-
-- Each new **fragment** (that makes elements appear as you navigate inside the slide - giving more interactivity) you
- have to add `.fragment` in the element. Ex.: If you want a list, but you don't want it to be displayed at once, but as
- you navigate in the slide, then you do:
-
-```jade
-ul
-    li.fragment Item 1
-    li.fragment Item 2
-    li.fragment Item 3
-```
-
-## Thanks
-
-Not made with, but inspired by philosophy behind [this boilerplate](https://github.com/willianjusten/reveal-boilerplate).
+The slides' content is licensed under a [Creative Commons Attribution 3.0 Unported License](http://creativecommons.org/licenses/by/3.0/deed.en_GB).

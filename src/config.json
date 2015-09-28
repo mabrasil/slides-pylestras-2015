@@ -1,0 +1,25 @@
+{
+  "about": {
+    "title": "Aventurando-se com metadados: Micro Data e Open Graph",
+    "description": "Slides from my talk at Pylestras about metadata, focusing in Microdata and Open Graph.",
+    "author": "@mabrasil_io",
+    "site": {
+        "url": "http://mabrasil.github.io/talks/2015/pylestras/",
+        "googleAnalytics": "",
+        "cover": "http://mabrasil.github.io/talks/2015/pylestras/images/meta/screenshot.png",
+        "favicon": "images/meta/favicon.png"
+    }
+  },
+  "deploy":{
+    "rsync":{
+      "username":"",
+      "hostname": "",
+      "dest": ""
+    },
+    "github":{
+      "remoteUrl": "",
+      "branch": "",
+      "message": "Deployed to Github Pages at [timestamp]"
+    }
+  }
+}
